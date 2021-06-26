@@ -1,0 +1,103 @@
+.logo{
+    height: 60px;
+    width: 60px;
+    
+}
+
+#cimg{
+    height: 150px;
+    width: 150px;
+    background-color: rgb(132, 136, 139);
+}
+
+.socialicons{
+    height: 20px;
+    width: 22px;
+}
+#socialimg{
+    float: right;
+     margin: 1% 1%;
+     padding-block: 6px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #e0e0e0;
+    font-family: 'ubuntu', sans-serif;
+}
+header{
+    background-color: rosybrown;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+footer{
+    background-color: rosybrown;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+#list-view{
+    margin: 2%;
+    
+}
+#hotelimg{
+    background-color: rgb(132,136,139);
+    width: 40%;
+    margin: 2%;
+
+    display: inline-block;
+}
+#container{
+    height: 100%;
+    width: 100%;
+}
+.login{
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 1%;
+    padding-top: 1.5%;
+}
+li a{
+    color:black;
+    text-decoration: none;
+}
+li{
+    display: inline-block;
+    padding: 0 30px;
+}
+ul{
+    
+    padding-left: 38%;
+}
+#map-view{
+    display: none;
+}
+#content{
+    padding-bottom: 50px;
+}
+#list-view a{
+    text-decoration: none;
+    color: black;
+}
+#contact{
+    float: left; 
+    line-height: 5px;
+    padding: 1%;
+    padding-top: 2%;
+}
+a.contactus{
+    text-decoration: none;
+    color: black;
+    padding-top: 1%;
+}
+#copyrights{
+    font-size: 10px;
+    text-align: center;
+    top: 60%;
+    padding-top: 3em;
+    bottom: 0;
+
+}
