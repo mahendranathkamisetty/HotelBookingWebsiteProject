@@ -1,0 +1,118 @@
+.logo{
+    height: 60px;
+    width: 60px;
+    margin-left: 1%;
+}
+.hotel-img{
+    height: 300px;
+    width: 270px;
+}
+.socialicons{
+    height: 20px;
+    width: 22px;
+}
+#socialimg{
+    float: right;
+    margin-right: 2%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #e0e0e0;
+    font-family: 'ubuntu', sans-serif;
+
+}
+.login{
+    text-decoration: none;
+    color: black;
+    float: right;
+    padding: 1%;
+    padding-top: 1.5%;
+    margin-right: 2%;
+}
+header{
+    background-color: rosybrown;
+    position: sticky;
+    width: 100%;
+    top: 0;
+}
+footer{
+    background-color: rosybrown;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    
+    display: flexbox;
+}
+#content{
+    display: flexbox;
+}
+#hotelimgdesc{
+    background-color: rgb(132, 136, 139);
+    width: 50%;
+    height: 20%;
+    margin: 0 auto;
+    margin-top: 6%;
+    margin-bottom: 2%;
+
+    display: flex;
+}
+.hoteladdr{
+    margin-top: 9%;
+    margin-left: 3%;
+}
+#container{
+    width: 100%;
+    height: 100%;
+}
+.fstyle{
+    font-family: cursive;
+    padding-bottom: 4%;
+}
+.customer-info{
+    margin: 2%;
+    margin-top: 1%;
+}
+#details{
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: rosybrown;
+}
+.contactus{
+    text-decoration: none;
+    color: black;
+    padding: 1%;
+    top: 2%;
+    position: absolute;
+    margin-left: 2%;
+}
+#contact{
+    padding-top: 1%;
+}
+.paynow{
+    text-decoration: none;
+    color: black;
+    margin-left: 0%;
+    margin-top: 7%;
+}
+#tariff{
+    
+    margin-top: 55px;
+}
+
+#copyrights{
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.pay{
+    margin-top: 7%;
+}
