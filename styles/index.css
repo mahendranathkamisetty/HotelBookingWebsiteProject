@@ -138,3 +138,28 @@ a.viewmore{
 
 }
 
+@media only screen and (max-width: 576px){
+    .searchbar{
+        width: 133%;
+    }
+    .citycards{
+        display: grid;
+        margin-left: 28%;
+        margin-top: 5%;
+    }
+    .city{
+        margin-bottom: 52%;
+        height: 300px;
+        width: 300px;
+    }
+    #viewmore{
+        margin-left: 32%;
+    }
+    footer{
+        height: 6%;
+    }
+    #name{
+        font-weight: bold;
+    }
+}
+   
