@@ -76,6 +76,10 @@ footer{
 #button{
     padding: 6px;
     margin-left: 11em;
+    
+}
+#button:hover{
+    color: green;
 }
 .fstyle{
     font-family: cursive;
@@ -108,7 +112,7 @@ footer{
 }
 #socialimg{
     float: right;
-    
+    margin-bottom: 1%;
     margin-right: 1%;
 }
 #contact{
@@ -131,4 +135,7 @@ footer{
 
     top: 30%;
 
+}
+.button{
+    margin-bottom: 2%;
 }

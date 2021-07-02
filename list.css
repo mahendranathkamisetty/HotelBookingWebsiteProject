@@ -7,7 +7,7 @@
 
 #cimg{
     height: 150px;
-    width: 150px;
+    width: 234px;
     background-color: rgb(132, 136, 139);
 }
 
@@ -54,14 +54,14 @@ footer{
     width: 40%;
     margin: 2%;
 
-    display: inline-block;
-    display: flex;
 }
 #radisson{
     margin: 2%;
     background-color: lightgrey;
     width: 40%;
     display: inline-block;
+    margin-top: 0;
+    
 }
 #lalit{
     margin: 2%;
@@ -80,6 +80,7 @@ footer{
 }
 .desc-div{
     margin-left: 20px;
+    margin-top: 2%;
 }
 #container{
     height: 100%;
@@ -108,7 +109,8 @@ ul{
 }    
 
 #map-view{
-    display: none;
+    visibility: visible;
+    margin-right: 1%;
 }
 #content{
     padding-bottom: 50px;
@@ -136,4 +138,33 @@ a.contactus{
     padding-top: 3em;
     bottom: 0;
 
+}
+#pills-tab{
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+#pills-listview-tab{
+    color: black;
+}
+#pills-mapview-tab{
+    color: black;
+}
+#radisson:hover{
+    background-color: rosybrown;
+}
+#lalit:hover{
+    background-color: rosybrown;
+}
+#taj:hover{
+    background-color: rosybrown;
+}
+.desc-div:hover{
+    color: black;
+}
+.checked{
+    color: orange;
+}
+.div-1{
+    display: flex;
 }
