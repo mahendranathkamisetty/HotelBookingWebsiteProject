@@ -29,14 +29,14 @@
               <ul id="pills-tab" class="nav nav-pills mb-3" role="tablist">
                <li class="nav-item">
                  <a class="nav-link active" id="pills-listview-tab"
-                   data-bs-toggle="pill" href="#pills-listview" role="tab" 
+                   data-bs-toggle="pill" href="#list-view" role="tab" 
                    aria-controls="pills-listview" aria-selected="true" target="_self">
                    <b>List View</b>
                  </a>
                </li>
                <li class="nav-item">
                  <a class="nav-link" id="pills-mapview-tab" data-bs-toggle="pill"
-                  href="#pills-mapview" role="tab" aria-controls="pills-mapview"
+                  href="#map-view" role="tab" aria-controls="pills-mapview"
                   aria-selected="false" target="_self">
                   <b>Map View</b>
                  </a>
@@ -44,10 +44,11 @@
               </ul>
             </div>
             <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade show active" id="pills-listview"
+              <div class="tab-pane fade show active" id="list-view"
                    role="tabpanel" aria-labelledby="pills-listview-tab">
-              
-            <div id=list-view>
+                   <div id="hotel-list"></div>
+              </div>
+            <!--<div id=list-view>
                <div id="radisson" class="hotel">
                  <div class="div-1">
                   <div id="hotelimg">
@@ -101,16 +102,18 @@
                 </div>
               </div>
               </div>
-            </div>
-            <div class="tab-pane fade" id="pills-mapview" role="tabpanel"
-                 aria-labelledby="pills-mapview-tab">
-            <div id="map-view" style="display: flex;">
+            </div>-->
+           
+            <div id="map-view" class="tab-pane fade" style="display: flex;">
                 <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
+                <div id="map"></div>
             </div>
         </div>
         </div>
         <footer id="footer"><footer>
         </div>
         <script src="scripts\common.js"></script>
+        <script src="scripts\list.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDd1RhQnO9UP8FplM4Njb_n51zHEDhQ91M&callback=initMap"></script>
     </body>
 </html>
